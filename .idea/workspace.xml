@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f361e540-6328-4635-b384-31c85b344154" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/controller/CommercialController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/controller/ManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/controller/PersonneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/controller/SalarieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/dto/CommercialDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/dto/ManagerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/dto/PersonneDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/dto/SalarieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/entity/Commercial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/entity/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/entity/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/entity/Salarie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/mapper/CommercialMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/mapper/ManagerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/mapper/PersonneMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/mapper/SalarieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/repository/CommercialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/repository/ManagerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/repository/PersonneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/repository/SalarieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/services/CommercialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/services/ManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/services/PersonneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/services/SalarieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/services/impl/CommercialServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/services/impl/ManagerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/services/impl/PersonneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AtlPersistData/src/main/java/com/example/atlpersistdata/services/impl/SalarieServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epsi-store/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epsi-store/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epsi-store/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epsi-store/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epsi-store/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epsi-store/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epsi-store/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../epsi-store/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exoCours/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2c6TAbDLA9oF0d9Kh8Aj2eUzI2U" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.epsi-parent [clean].executor": "Run",
+    "Maven.epsi-parent [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Toni/Dev/workspace/epsi-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.EpsiConfigApplication">
+    <configuration name="EpsiConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="epsi-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epsi.config.EpsiConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EpsiCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="epsi-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epsi.core.EpsiCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f361e540-6328-4635-b384-31c85b344154" name="Changes" comment="" />
+      <created>1707430888218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707430888218</updated>
+      <workItem from="1707430889259" duration="15000" />
+      <workItem from="1707430916992" duration="123000" />
+      <workItem from="1707431060813" duration="71000" />
+      <workItem from="1707431143760" duration="43000" />
+      <workItem from="1707431193073" duration="21000" />
+      <workItem from="1707431219105" duration="30000" />
+      <workItem from="1707431254780" duration="12000" />
+      <workItem from="1707431271495" duration="124000" />
+      <workItem from="1707431399884" duration="247000" />
+      <workItem from="1707431670718" duration="2258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
