@@ -1,11 +1,14 @@
-package com.epsi.core.dao;
+package com.epsi.core.entities;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-@Entity(name = "shops")
+@Entity
+@AllArgsConstructor
+@Table(name = "shops")
 public class Store {
 
     @Id
@@ -29,15 +32,4 @@ public class Store {
     private String zipcode;
 
 
-    public Store(){
-
-    }
-    public Store(int id, String name, String address, String phone, String country, String zipcode) {
-        this.id = id;
-        this.name = name;
-        this.address = address;
-        this.phone = phone;
-        this.country = country;
-        this.zipcode = zipcode;
-    }
 }

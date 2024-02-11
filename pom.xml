@@ -17,12 +17,12 @@
     <description>epsi-parent</description>
     <packaging>pom</packaging>
 
+
     <properties>
         <java.version>17</java.version>
     </properties>
 
     <modules>
-        <module>epsi-config</module>
         <module>epsi-core</module>
     </modules>
 
