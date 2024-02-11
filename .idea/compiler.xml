@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="epsi-core" />
-        <module name="epsi-config" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="epsi-config" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
