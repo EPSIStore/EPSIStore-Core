@@ -1,4 +1,4 @@
-package com.epsi.core.dao;
+package com.epsi.core.entities;
 
 
 import jakarta.persistence.*;
