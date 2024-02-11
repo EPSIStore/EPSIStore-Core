@@ -5,22 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f361e540-6328-4635-b384-31c85b344154" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-config/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-config/target/epsi-config-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Associate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Depend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Evaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Fidelity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/FidelityReward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Hierarchies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/TypePromotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/AssociateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/DependRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/EvaluationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/FidelityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/HierarchiesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/OrdersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/PromotionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/RateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/StoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-config/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-config/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-config/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-config/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-config/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-config/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-config/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-config/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-config/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-config/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/epsi-config/src/test/java/com/epsi/config/EpsiConfigApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/epsi-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/dao/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/dao/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/dao/Promotion.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/dao/Roles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/dao/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/dao/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/entities/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/epsi-core/src/main/java/com/epsi/core/dao/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/epsi-core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-core/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -34,11 +66,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +99,7 @@
     "git-widget-placeholder": "feat/dao",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lucie/Downloads/epsicore",
+    "last_opened_file_path": "C:/Users/lucie/OneDrive - Ifag Paris/Bureau/Ecole/Bachelor CDA/epsi-core",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
