@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Set;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -32,4 +34,6 @@ public class Product {
     @Column(name = "detail")
     private String detail;
 
+    @OneToMany(mappedBy = "ordersProduct")
+    private Set<OrdersProduct> ordersProduct;
 }

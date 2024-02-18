@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f361e540-6328-4635-b384-31c85b344154" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/epsi-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/epsi-core/pom.xml" afterDir="false" />
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +48,17 @@
     "Maven.epsi-core [clean,install].executor": "Run",
     "Maven.epsi-parent [clean,install].executor": "Run",
     "Maven.epsi-parent [clean].executor": "Run",
-    "Maven.epsi-parent [install].executor": "Run",
+    "Maven.epsi-parent [install].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feat/dao",
+    "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+<<<<<<< Updated upstream
     "last_opened_file_path": "C:/Users/lucie/OneDrive - Ifag Paris/Bureau/Ecole/Bachelor CDA/Java/projets",
+=======
+    "last_opened_file_path": "/home/tanguy/IdeaProjects/EPSIStore-Core",
+>>>>>>> Stashed changes
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,13 +136,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.epsi-parent [clean]" />
+<<<<<<< Updated upstream
       <item itemvalue="Maven.epsi-core [clean,install]" />
+=======
+      <item itemvalue="Maven.epsi-parent [install]" />
+      <item itemvalue="Spring Boot.EpsiConfigApplication" />
+      <item itemvalue="Spring Boot.EpsiCoreApplication" />
+>>>>>>> Stashed changes
     </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-25a4bffe" />
       </set>
     </attachedChunks>
   </component>
@@ -157,6 +170,8 @@
       <workItem from="1707431271495" duration="124000" />
       <workItem from="1707431399884" duration="247000" />
       <workItem from="1707431670718" duration="2258000" />
+      <workItem from="1707662902369" duration="210000" />
+      <workItem from="1707663213791" duration="1502000" />
     </task>
     <servers />
   </component>
