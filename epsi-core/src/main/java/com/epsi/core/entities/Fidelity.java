@@ -3,6 +3,7 @@ package com.epsi.core.entities;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.sql.Timestamp;
@@ -10,7 +11,7 @@ import java.sql.Timestamp;
 @Getter
 @Setter
 @Entity
-@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "fidelity")
 public class Fidelity {
     @Id

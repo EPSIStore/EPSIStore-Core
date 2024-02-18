@@ -3,6 +3,7 @@ package com.epsi.core.entities;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Date;
@@ -10,7 +11,7 @@ import java.util.Date;
 @Getter
 @Setter
 @Entity
-@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "orders")
 public class Orders {
     @Id
