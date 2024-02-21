@@ -4,12 +4,13 @@ package com.epsi.core.entities;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
 @Entity
-@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "evaluation")
 public class Evaluation {
     @Id
