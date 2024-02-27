@@ -1,6 +1,5 @@
 package com.epsi.core.entities;
 
-
 import java.util.Collection;
 import java.util.Collections;
 
@@ -17,6 +16,7 @@ import lombok.*;
 @Entity
 @Table(name="users")
 public class User implements UserDetails {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_user")
@@ -70,6 +70,4 @@ public class User implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
-
-   
 }

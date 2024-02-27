@@ -1,7 +1,6 @@
 package com.epsi.core.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -20,5 +19,4 @@ public class TypePromotion {
 
     @Column(name = "label", length = 50)
     private String label;
-
 }
