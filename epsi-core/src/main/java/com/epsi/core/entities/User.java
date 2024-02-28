@@ -13,8 +13,10 @@ import lombok.*;
 
 @Getter
 @Setter
-@Builder
 @Entity
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name="users")
 public class User implements UserDetails {
     @Id
@@ -32,8 +34,8 @@ public class User implements UserDetails {
     @JoinColumn(name = "name_role")
     private Role role;
 
-    @OneToOne
-    @JoinColumn(name = "id_customer", unique = true)
+    @ManyToOne
+    @JoinColumn(name = "id_customer")
     private Customer customer;
 
     @Override
