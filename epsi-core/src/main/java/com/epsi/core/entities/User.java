@@ -1,10 +1,6 @@
 package com.epsi.core.entities;
 
 
-import java.util.Collection;
-import java.util.Collections;
-
-
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -15,7 +11,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name="users")
+
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_user")
@@ -34,6 +32,5 @@ public class User {
     @ManyToOne
     @JoinColumn(name = "id_customer")
     private Customer customer;
-
 
 }

@@ -1,9 +1,7 @@
 package com.epsi.core.entities;
 
-
 import jakarta.persistence.*;
 import lombok.*;
-
 
 @Entity
 @Getter
@@ -18,6 +16,5 @@ public class Role {
 
     @Column(name = "priority_index")
     private int priorityIndex;
-
 }
 
