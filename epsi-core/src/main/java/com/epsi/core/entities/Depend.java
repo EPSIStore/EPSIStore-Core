@@ -1,7 +1,6 @@
 package com.epsi.core.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -12,6 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Table(name = "depend")
 public class Depend {
+
     @Id
     @ManyToOne
     @JoinColumn(name = "id_product")
@@ -21,5 +21,4 @@ public class Depend {
     @ManyToOne
     @JoinColumn(name = "id_hierarchies")
     private Hierarchies hierarchies;
-
 }

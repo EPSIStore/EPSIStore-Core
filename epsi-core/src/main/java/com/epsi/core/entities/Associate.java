@@ -11,6 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Table(name = "associate")
 public class Associate {
+
     @Id
     @ManyToOne
     @JoinColumn(name = "id_product")
