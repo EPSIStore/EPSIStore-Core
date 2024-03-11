@@ -17,7 +17,7 @@ public class Promotion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_promotion")
-    private int id;
+    private int idPromotion;
 
     @Column(name = "date_begin")
     private Date dateBegin;
@@ -28,7 +28,7 @@ public class Promotion {
     @Column(name = "amount")
     private Integer amount;
 
-    @Column(name = "is_pourcent")
+    @Column(name = "ispourcent")
     private Boolean isPourcent;
 
     @ManyToOne

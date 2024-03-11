@@ -15,7 +15,7 @@ public class TypePromotion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_promotion_type")
-    private Long idPromotionType;
+    private int idPromotionType;
 
     @Column(name = "label", length = 50)
     private String label;
